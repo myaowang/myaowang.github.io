@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Myao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Mar 2018 13:55:12 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 29 Mar 2018 14:17:12 +0800</lastBuildDate>
     
 	<atom:link href="https://myaowang.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>EverythingWillbeFine</title>
+      <link>https://myaowang.github.io/post/everythingwillbefine/</link>
+      <pubDate>Thu, 29 Mar 2018 14:17:12 +0800</pubDate>
+      
+      <guid>https://myaowang.github.io/post/everythingwillbefine/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Myao</title>

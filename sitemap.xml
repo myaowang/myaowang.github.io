@@ -3,34 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://myao.wang/post/first/</loc>
+    <loc>https://myaowang.github.io/post/hellohugo/</loc>
+    <lastmod>2018-03-29T10:30:52+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://myaowang.github.io/post/first/</loc>
     <lastmod>2018-03-29T09:57:28+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://myao.wang/about/</loc>
+    <loc>https://myaowang.github.io/about/</loc>
     <lastmod>2018-03-29T09:56:38+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://myao.wang/categories/</loc>
+    <loc>https://myaowang.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://myao.wang/</loc>
-    <lastmod>2018-03-29T09:57:28+08:00</lastmod>
+    <loc>https://myaowang.github.io/</loc>
+    <lastmod>2018-03-29T10:30:52+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://myao.wang/post/</loc>
-    <lastmod>2018-03-29T09:57:28+08:00</lastmod>
+    <loc>https://myaowang.github.io/post/</loc>
+    <lastmod>2018-03-29T10:30:52+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://myao.wang/tags/</loc>
+    <loc>https://myaowang.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   

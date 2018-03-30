@@ -1,29 +1,102 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Fortnight</title>
+	
+	<meta name="description" content="">
+	<meta name="image" content="">
+	
+	<meta itemprop="name" content="Fortnight">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
+	
+	<meta name="og:title" content="Fortnight">
+	<meta name="og:description" content="">
+	
+	<meta name="og:url" content="https://myaowang.github.io/post/fortnight/">
+	<meta name="og:site_name" content="Fortnight">
+	<meta name="og:type" content="article">
+	
+	<meta name="article:tag" content="">
+	<link rel="stylesheet" type="text/css" href="https://myaowang.github.io/css/style.css">
+	
+	
+	
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
 
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
 
-        <title>Fortnight</title>
+<body>
 
-        <link rel="stylesheet" href="/css/stylesheet.css">
-    </head>
-    <body>
-        <section id="page-title">
-            <h1><a href="/">Elephants</a></h1>
-        </section>
+<header>
+	
+	<a href="https://myaowang.github.io/" style="float: left;color:#777;"><strong>Myao.Wang</strong></a>
+	
+	&nbsp;&nbsp;<a href="https://myaowang.github.io/archives/" style="color:#777;"><strong>Archives</strong></a>&nbsp;&nbsp;<a href="https://myaowang.github.io/about/" style="color:#777;"><strong>About</strong></a>
+	
+	
+	DRAFT
+	
+	
+	<a href="https://myaowang.github.io/index.xml" style="color:#777;float: right;"><strong><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></strong></a>
+</header>
 
 
+<div id="loadingMask" style="width: 100%; height: 100%; position: fixed; background: #fff;"></div>
+<script>
+function fadeOut(el) {
+  el.style.opacity = 1;
 
-<section class="blog-post">
-    <h1>Fortnight</h1>
-    <div class="blog-post-subheader">
-        March 30, 2018
-    </div>
-    <div class="blog-post-content">
-        <p>入职两周记。</p>
+  var last = +new Date();
+  var tick = function() {
+    el.style.opacity = +el.style.opacity - (new Date() - last) / 80;
+    last = +new Date();
+    
+
+    if (el.style.opacity > 0) {
+      (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+    } else {
+      el.style.display='none';
+    }
+  };
+
+  tick();
+}
+
+function ready(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+         el = document.getElementById('loadingMask');
+         fadeOut(el);
+        var elements = document.querySelectorAll("img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("alt")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("alt"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+
+    } else {
+        document.addEventListener('DOMContentLoaded', fn);
+    }
+}
+window.onload = ready;
+</script>
+
+<div class="content">
+  <h1>Fortnight <aside></aside></h1>
+  <p>入职两周记。</p>
 
 <p>2018-03-19
 第一天入职，早上就感受到了北京早高峰的威力，坐到第五站眼睛就一片发白，呼吸困难，脑子里嗡的一声，支在朋友的肩上缓了好一阵才缓过来，险些有跳车的冲动。一帧一帧的，碎片似的，拼接不起来，我强架着胳膊，捡了半天，最后还是放弃了，中途下车透气。大姨妈没能使我坚强。</p>
@@ -61,8 +134,13 @@ The second day.</p>
 
 <p>部门的人就有点让我头疼了，50几个人我需要一个个的记名字，对于我这个人名废来说着实有点吃力。mentor是个可爱的直男，有点少年气，刚从美国工作回来，入职没比我早几个月，人很耐斯，也很会引导，刚工作就遇到了这样的直系领导，感觉很知足。</p>
 
-    </div>
-</section>
+</div>
 
-    </body>
+
+
+
+<footer>
+	<p>© 2017-2018, all rights reserved.</a>
+</footer>
+</body>
 </html>

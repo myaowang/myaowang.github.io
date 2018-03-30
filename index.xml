@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Myao</title>
+    <title>Myao.Wang</title>
     <link>https://myaowang.github.io/</link>
-    <description>Recent content on Myao</description>
+    <description>Recent content on Myao.Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Mar 2018 21:38:43 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 30 Mar 2018 22:09:04 +0800</lastBuildDate>
     
 	<atom:link href="https://myaowang.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Archives</title>
+      <link>https://myaowang.github.io/archives/</link>
+      <pubDate>Fri, 30 Mar 2018 22:09:04 +0800</pubDate>
+      
+      <guid>https://myaowang.github.io/archives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://myaowang.github.io/about/</link>
+      <pubDate>Fri, 30 Mar 2018 22:08:50 +0800</pubDate>
+      
+      <guid>https://myaowang.github.io/about/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Fortnight</title>
